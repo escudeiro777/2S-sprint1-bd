@@ -10,6 +10,8 @@ CREATE TABLE CLINICA(
 );
 GO
 
+DROP TABLE CLINICA
+
 CREATE TABLE VET(
  idVet TINYINT PRIMARY KEY IDENTITY(1,1),
  idClinica TINYINT FOREIGN KEY REFERENCES CLINICA(idClinica),
@@ -53,39 +55,42 @@ GO
 
 INSERT CLINICA (nomeClinica)
 VALUES ('bicho mania')
-
-SELECT * FROM CLINICA
+GO
 
 INSERT VET (idClinica,nomeVet)
 VALUES (1,'fernada')
+GO
 
 INSERT VET (idClinica,nomeVet)
 VALUES (1,'suzana'), (1,'ana')
-
-SELECT * FROM VET
+GO
 
 INSERT TIPOPET (nomeTipo)
 VALUES ('cachorro'),('gato'),('papagaio'),('coelho')
-
-SELECT * FROM TIPOPET
+GO
 
 INSERT RACA (idTipo, nomeRaca)
 VALUES (1,'yorkshire'),(2,'siames'),(3,'papagaio-do-mangue'),(4,'leao')
-
-SELECT * FROM RACA
+GO
 
 INSERT DONO (nomeDono)
 VALUES ('nayara'),('iara')
-
-SELECT * FROM DONO
+GO
 
 INSERT PET(idRaca,idDono,nomePet)
 VALUES (1,1,'toby'), (2,2,'nina')
+GO
 
-SELECT * FROM PET
 
 INSERT ATENDIMENTO (idPet,idVet)
 VALUES(1,2),(4,1)
+GO
 
+SELECT * FROM CLINICA
+SELECT * FROM VET
+SELECT * FROM TIPOPET
+SELECT * FROM RACA
+SELECT * FROM DONO
+SELECT * FROM PET
 SELECT * FROM ATENDIMENTO
 
