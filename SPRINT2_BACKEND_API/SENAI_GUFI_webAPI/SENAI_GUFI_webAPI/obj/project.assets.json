@@ -5703,19 +5703,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\55119\\.nuget\\packages\\": {}
+    "C:\\Users\\DEV\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\55119\\Desktop\\Trabalhos Nayara 2021\\SENAI\\2º Semestre\\SPRINT2_BACKEND_API\\SENAI_GUFI_webAPI\\SENAI_GUFI_webAPI\\SENAI_GUFI_webAPI.csproj",
+      "projectUniqueName": "C:\\Users\\DEV\\Desktop\\2S_SENAI_Repository\\SPRINT2_BACKEND_API\\SENAI_GUFI_webAPI\\SENAI_GUFI_webAPI\\SENAI_GUFI_webAPI.csproj",
       "projectName": "SENAI_GUFI_webAPI",
-      "projectPath": "C:\\Users\\55119\\Desktop\\Trabalhos Nayara 2021\\SENAI\\2º Semestre\\SPRINT2_BACKEND_API\\SENAI_GUFI_webAPI\\SENAI_GUFI_webAPI\\SENAI_GUFI_webAPI.csproj",
-      "packagesPath": "C:\\Users\\55119\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\55119\\Desktop\\Trabalhos Nayara 2021\\SENAI\\2º Semestre\\SPRINT2_BACKEND_API\\SENAI_GUFI_webAPI\\SENAI_GUFI_webAPI\\obj\\",
+      "projectPath": "C:\\Users\\DEV\\Desktop\\2S_SENAI_Repository\\SPRINT2_BACKEND_API\\SENAI_GUFI_webAPI\\SENAI_GUFI_webAPI\\SENAI_GUFI_webAPI.csproj",
+      "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DEV\\Desktop\\2S_SENAI_Repository\\SPRINT2_BACKEND_API\\SENAI_GUFI_webAPI\\SENAI_GUFI_webAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\55119\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
