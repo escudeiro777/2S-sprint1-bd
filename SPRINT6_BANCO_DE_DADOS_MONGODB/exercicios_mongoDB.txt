@@ -1,0 +1,38 @@
+aula 9/12 - introdução a mongoDb
+
+//CREATE
+
+//criar banco de dados
+use cursos
+
+//criar coleçao dentro do banco
+db.createCollection("materias")
+
+//inserindo registros
+db.materias.insertMany([
+{titulo: "Titulo U", descricao: "java", concluida:"true"},
+{titulo: "Titulo O", descricao: "CSharp", concluida:"false"},
+{titulo: "Titulo P", descricao: "firebase"},
+{titulo: "Titulo Y", descricao: "microsoft"},
+{titulo: "Titulo R", descricao: "Oracle", dataInclusao: Date()}
+])
+
+//mostrar os documents
+db.materias.find
+
+//UPDATE
+db.materias.find().pretty()
+
+db.materias.update(
+{titulo: "Titulo Uava", descricao: "java best"},
+{titulo: "Titulo O", descricao: "CSharp", concluida:"false"},
+{titulo: "Titulo P", descricao: "firebase"},
+{titulo: "Titulo Y", descricao: "microsoft"},
+{titulo: "Titulo R", descricao: "Oracle", dataInclusao: Date()})
+
+//DELETE
+
+db.materias.remove({})
+aula 10/12 - treino
+
+
